@@ -35,7 +35,6 @@ MainWindow::~MainWindow()
 
 void MainWindow::stopwatch()
 {
-
     t = t.addMSecs(1);
     ui->label->setText(t.toString("hh:mm:ss.zzz"));
 }
